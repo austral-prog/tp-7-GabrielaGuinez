@@ -32,4 +32,3 @@ def remove(word, mylist):
             mylist[index] =""
             count += 1
     return count
-    return -1
