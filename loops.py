@@ -4,13 +4,11 @@ def index_of_by_index(word, mylist, index):
             return i 
     return -1
 
-
 def index_of_empty(mylist):
     for i, item in enumerate(mylist)
         if item == word:
             return i 
     return -1
-
 
 def index_of(word, mylist):
     for i, item in enumerate(mylist):
@@ -18,14 +16,12 @@ def index_of(word, mylist):
             return i 
     return -1
 
-
 def put(word, mylist):
     for i, item in enumerate(mylist):
         if item == " ":
             list[1] = word
             return i 
     return -1
-
 
 def remove(word, mylist):
     count = 0
