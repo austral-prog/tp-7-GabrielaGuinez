@@ -27,9 +27,9 @@ def put(word, mylist):
 
 def remove(word, mylist):
     count = 0
-    for i, item in enumerate(mylist):
+    for index, item in enumerate(mylist):
         if item == word:
-            mylist[i] == ""
+            mylist[index] == ""
             count += 1
     return count
     return -1
