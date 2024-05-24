@@ -11,15 +11,17 @@ def index_of_empty(mylist):
     return -1
 
 def index_of(word, mylist):
-    for i,item in enumerate(mylist):
+    index = 0
+    for item in mylist:
         if item == word:
-            return i 
+            return index 
+        index += 1
     return -1
 
 def put(word, mylist):
     for i,item in enumerate(mylist):
         if item == "":
-            list[1] = word
+            mylist [i] = word
             return i 
     return -1
 
